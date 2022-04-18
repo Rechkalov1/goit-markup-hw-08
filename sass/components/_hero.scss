@@ -43,9 +43,18 @@
 }
 
 .hero__txt {
+  @media screen and(min-width:768px) {
+    width: 360px;
+    font-size: 26px;
+    line-height: calc(42 / 26);
+  }
+
+  @media screen and(min-width:1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
