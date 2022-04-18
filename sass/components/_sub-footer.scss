@@ -1,0 +1,45 @@
+.section-sub {
+  margin-left: 93px;
+}
+.sub__title {
+  font-family: $font-style;
+
+  font-weight: $second-font-weight;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: $color-white;
+}
+.icon-send {
+  position: relative;
+
+  left: 10px;
+  width: 24px;
+  height: 24px;
+  display: block;
+  fill: $color-white;
+}
+.sub__list-mail {
+  width: 570px;
+  height: 86px;
+}
+.icon-link {
+  display: block;
+}
+.sub__input {
+  width: 358px;
+  height: 50px;
+  color: var(--color-white);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 16px 12px;
+  transition: border-color 250ms $transition-timing-func;
+  &:focus {
+    border: 1px solid #2196f3;
+  }
+}

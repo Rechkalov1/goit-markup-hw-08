@@ -1,0 +1,78 @@
+.team__title {
+  font-weight: $second-font-weight;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+  color: $second-color;
+}
+.team__list {
+  margin-right: auto;
+  margin-left: auto;
+  background: #f5f4fa;
+}
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+  color: $second-color;
+}
+.team__skill {
+  text-align: center;
+}
+.team-card__icons {
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
+
+.team__card {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.team-card__link {
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+  transition: background-color 250ms $transition-timing-func,
+    fill 250ms $transition-timing-func;
+  &:hover,
+  &:focus {
+    background-color: $color-blue;
+    fill: $color-white;
+  }
+}
+
+.team-card__item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50% 50%;
+  cursor: pointer;
+}
+
+.team__box {
+  width: 100%;
+  padding: 15px;
+
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__item {
+  text-align: center;
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}

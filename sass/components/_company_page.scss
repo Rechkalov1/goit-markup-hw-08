@@ -1,0 +1,58 @@
+.company__title {
+  font-weight: $second-font-weight;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+  color: $second-color;
+}
+
+.company__item {
+  width: 210px;
+  height: 92px;
+  margin: 15px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill: #afb1b8;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 250ms $transition-timing-func;
+
+  &:hover,
+  &:focus {
+    fill: $color-blue;
+    border-color: $color-blue;
+  }
+}
+.company__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.company__icon {
+  width: 106px;
+  height: 60px;
+  color: currentColor;
+  transition: fill 250ms $transition-timing-func;
+}
+
+.company__link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: currentColor;
+  cursor: pointer;
+  transition: border-color 250ms $transition-timing-func;
+  &:hover,
+  &:focus {
+    fill: $color-blue;
+    border-color: $color-blue;
+  }
+}
