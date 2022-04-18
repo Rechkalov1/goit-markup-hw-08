@@ -444,6 +444,9 @@ body {
   .hero-image {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background480.jpg);
     background-color: #757575;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
@@ -451,6 +454,9 @@ body {
   .hero-image {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background768.jpg);
     background-color: #757575;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
