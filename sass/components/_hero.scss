@@ -1,36 +1,68 @@
 .hero-image {
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/background.jpg);
-  background-color: $main-color;
+  @media screen and(min-width:0px) and(max-width:767px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/background480.jpg);
+    background-color: $main-color;
+  }
+  @media screen and(min-width:768px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/background768.jpg);
+    background-color: $main-color;
+  }
+
+  @media screen and(min-width:1200px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/background.jpg);
+    background-color: $main-color;
+  }
 }
 .hero {
   max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero__txt {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.61;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: $color-white;
+
+  max-width: 696px;
+
+  margin: auto;
 }
 .hero__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  display: block;
 
   letter-spacing: 0.06em;
   background: $color-blue;
   color: $color-white;
   border-radius: 4px;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
   width: 200px;
   height: 50px;
   transition: background-color 250ms $transition-timing-func,
