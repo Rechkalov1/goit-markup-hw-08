@@ -316,14 +316,28 @@ textarea {
   padding-bottom: 94px;
 }
 
-.section1 {
-  padding-bottom: 94px;
+@media screen and (min-width: 1200px) {
+  .section1 {
+    padding-bottom: 94px;
+  }
 }
 
 .team {
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+}
+
+@media screen and (min-width: 768) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {

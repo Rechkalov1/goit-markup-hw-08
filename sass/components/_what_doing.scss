@@ -1,3 +1,8 @@
+.what-doing {
+  @media screen and(max-width:1199px) {
+    display: none;
+  }
+}
 .what-doing__list {
   display: flex;
 }
