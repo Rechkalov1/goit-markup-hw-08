@@ -293,11 +293,9 @@ textarea {
   margin-left: auto;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    padding-top: 16px;
-    padding-bottom: 16px;
   }
 }
 
@@ -436,7 +434,7 @@ textarea {
 
 .site-nav__link.current::before {
   position: absolute;
-  bottom: -4%;
+  bottom: -1%;
   content: '';
   display: inline-block;
   background-color: #1c84d8;
@@ -478,6 +476,16 @@ textarea {
 
 .header {
   border-bottom: 1px solid #ececec;
+}
+
+@media screen and (max-width: 767px) {
+  .header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {
