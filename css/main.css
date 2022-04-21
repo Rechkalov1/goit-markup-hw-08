@@ -1739,7 +1739,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 0px) and (max-width: 767px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 0px) and (max-width: 767px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 0px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 0px) and (max-width: 767px) and (min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 192dpi) and (min-width: 480px), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 2dppx) and (min-width: 480px) {
   .hero-image {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/Header_x2m.png);
     background-image: -webkit-image-set(url(../images/bc_fone/Header_x2m.webp) 2x);
@@ -1757,7 +1757,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-image {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/Header_x2t.png);
     background-image: -webkit-image-set(url(../images/bc_fone/Header_x2t.webp) 2x);
@@ -1772,7 +1772,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-moz-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero-image {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/header_x2d.png);
     background-image: -webkit-image-set(url(../images/bc_fone/header_x2d.webp) 2x);

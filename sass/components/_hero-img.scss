@@ -10,12 +10,9 @@
       url(../images/bc_fone/Header_m.webp) 1x
     );
 
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (-moz-min-device-pixel-ratio: 2),
-      screen and (-o-min-device-pixel-ratio: 2/1),
-      screen and (-webkit-min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2) and (min-width: 480px),
+      (min-resolution: 192dpi) and (min-width: 480px),
+      (min-resolution: 2dppx) and (min-width: 480px) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
@@ -41,12 +38,9 @@
     background-image: -webkit-image-set(
       url(../images/bc_fone/Header_t.webp) 1x
     );
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (-moz-min-device-pixel-ratio: 2),
-      screen and (-o-min-device-pixel-ratio: 2/1),
-      screen and (-webkit-min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+      (min-resolution: 192dpi) and (min-width: 768px),
+      (min-resolution: 2dppx) and (min-width: 768px) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
@@ -68,12 +62,9 @@
     background-image: -webkit-image-set(
       url(../images/bc_fone/header_d.webp) 1x
     );
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (-moz-min-device-pixel-ratio: 2),
-      screen and (-o-min-device-pixel-ratio: 2/1),
-      screen and (-webkit-min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+      (min-resolution: 192dpi) and (min-width: 1200px),
+      (min-resolution: 2dppx) and (min-width: 1200px) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
