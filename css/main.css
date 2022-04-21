@@ -1862,8 +1862,8 @@ textarea {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .hero-image {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/Header_m.png);
-    background-image: -webkit-image-set(url(../images/bc_fone/Header_m.webp) 1x);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/header_m.jpg);
+    background-image: -webkit-image-set(url(../images/bc_fone/header_m.webp) 1x);
     background-color: #757575;
     background-repeat: no-repeat;
     background-position: center;
@@ -1873,15 +1873,15 @@ textarea {
 
 @media screen and (min-width: 0px) and (max-width: 767px) and (min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 192dpi) and (min-width: 480px), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 2dppx) and (min-width: 480px) {
   .hero-image {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/Header_x2m.png);
-    background-image: -webkit-image-set(url(../images/bc_fone/Header_x2m.webp) 2x);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/header_2xm.jpg);
+    background-image: -webkit-image-set(url(../images/bc_fone/header_2xm.webp) 2x);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero-image {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/Header_t.png);
-    background-image: -webkit-image-set(url(../images/bc_fone/Header_t.webp) 1x);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/header_t.jpg);
+    background-image: -webkit-image-set(url(../images/bc_fone/header_t.webp) 1x);
     background-color: #757575;
     background-repeat: no-repeat;
     background-position: center;
@@ -1891,14 +1891,14 @@ textarea {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-image {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/Header_x2t.png);
-    background-image: -webkit-image-set(url(../images/bc_fone/Header_x2t.webp) 2x);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/Header_2xt.jpg);
+    background-image: -webkit-image-set(url(../images/bc_fone/Header_2xt.webp) 2x);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero-image {
-    background-image: url(../images/bc_fone/Header_d.png);
+    background-image: url(../images/bc_fone/Header_d.jpg);
     background-image: -webkit-image-set(url(../images/bc_fone/header_d.webp) 1x);
     background-color: #757575;
   }
@@ -1906,8 +1906,8 @@ textarea {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero-image {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/header_x2d.png);
-    background-image: -webkit-image-set(url(../images/bc_fone/header_x2d.webp) 2x);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bc_fone/header_2xd.jpg);
+    background-image: -webkit-image-set(url(../images/bc_fone/header_2xd.webp) 2x);
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -5,9 +5,9 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/bc_fone/Header_m.png);
+      url(../images/bc_fone/header_m.jpg);
     background-image: -webkit-image-set(
-      url(../images/bc_fone/Header_m.webp) 1x
+      url(../images/bc_fone/header_m.webp) 1x
     );
 
     @media (min-device-pixel-ratio: 2) and (min-width: 480px),
@@ -18,9 +18,9 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/bc_fone/Header_x2m.png);
+        url(../images/bc_fone/header_2xm.jpg);
       background-image: -webkit-image-set(
-        url(../images/bc_fone/Header_x2m.webp) 2x
+        url(../images/bc_fone/header_2xm.webp) 2x
       );
     }
     background-color: $main-color;
@@ -34,9 +34,9 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/bc_fone/Header_t.png);
+      url(../images/bc_fone/header_t.jpg);
     background-image: -webkit-image-set(
-      url(../images/bc_fone/Header_t.webp) 1x
+      url(../images/bc_fone/header_t.webp) 1x
     );
     @media (min-device-pixel-ratio: 2) and (min-width: 768px),
       (min-resolution: 192dpi) and (min-width: 768px),
@@ -46,9 +46,9 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/bc_fone/Header_x2t.png);
+        url(../images/bc_fone/Header_2xt.jpg);
       background-image: -webkit-image-set(
-        url(../images/bc_fone/Header_x2t.webp) 2x
+        url(../images/bc_fone/Header_2xt.webp) 2x
       );
     }
     background-color: $main-color;
@@ -58,7 +58,7 @@
   }
 
   @media screen and(min-width:1200px) {
-    background-image: url(../images/bc_fone/Header_d.png);
+    background-image: url(../images/bc_fone/Header_d.jpg);
     background-image: -webkit-image-set(
       url(../images/bc_fone/header_d.webp) 1x
     );
@@ -70,9 +70,9 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/bc_fone/header_x2d.png);
+        url(../images/bc_fone/header_2xd.jpg);
       background-image: -webkit-image-set(
-        url(../images/bc_fone/header_x2d.webp) 2x
+        url(../images/bc_fone/header_2xd.webp) 2x
       );
     }
     background-color: $main-color;
