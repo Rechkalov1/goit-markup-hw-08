@@ -312,9 +312,18 @@ textarea {
   }
 }
 
-.cliens {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (max-width: 1199px) {
+  .cliens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cliens {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -327,7 +336,7 @@ textarea {
   background: #f5f4fa;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (max-width: 1199px) {
   .team {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -546,8 +555,10 @@ textarea {
   padding-bottom: 60px;
 }
 
-.footer-join {
-  margin-left: 70px;
+@media screen and (min-width: 1200px) {
+  .footer-join {
+    margin-left: 70px;
+  }
 }
 
 .footer-nav__website {
@@ -559,14 +570,40 @@ textarea {
   color: #2196f3;
 }
 
+@media screen and (max-width: 1199px) {
+  .footer-nav__website {
+    font-size: 24px;
+    line-height: calc(24 / 28);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-nav__website {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+}
+
 .footer-nav__logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 0.8;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-nav__logo {
+    font-size: 24px;
+    line-height: calc(24 / 28);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-nav__logo {
+    font-size: 26px;
+    line-height: 1.2;
+  }
 }
 
 .footer__item {
@@ -606,13 +643,17 @@ textarea {
 }
 
 .footer-container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  align-items: baseline;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    width: 1200px;
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .main-button__container {
@@ -894,8 +935,10 @@ body {
   color: #2196f3;
 }
 
-.section-sub {
-  margin-left: 93px;
+@media screen and (min-width: 1200px) {
+  .section-sub {
+    margin-left: 93px;
+  }
 }
 
 .sub__title {
@@ -918,10 +961,18 @@ body {
   fill: #ffffff;
 }
 
-.sub__list-mail {
-  display: flex;
-  width: 570px;
-  height: 86px;
+@media screen and (min-width: 768px) {
+  .sub__list-mail {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sub__list-mail {
+    width: 570px;
+    height: 86px;
+    display: flex;
+  }
 }
 
 .icon-link {

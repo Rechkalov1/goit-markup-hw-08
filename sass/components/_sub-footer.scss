@@ -1,5 +1,7 @@
 .section-sub {
-  margin-left: 93px;
+  @media screen and(min-width:1200px) {
+    margin-left: 93px;
+  }
 }
 .sub__title {
   font-family: $font-style;
@@ -22,10 +24,14 @@
   fill: $color-white;
 }
 .sub__list-mail {
-  display: flex;
-
-  width: 570px;
-  height: 86px;
+  @media screen and(min-width:768px) {
+    display: flex;
+  }
+  @media screen and(min-width:1200px) {
+    width: 570px;
+    height: 86px;
+    display: flex;
+  }
 }
 .icon-link {
   display: block;
