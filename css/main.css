@@ -1766,7 +1766,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .hero-image {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bc_fone/Header_d.png);
+    background-image: url(../images/bc_fone/Header_d.png);
     background-image: -webkit-image-set(url(/images/bc_fone/header_d.webp) 1x);
     background-color: #757575;
   }
