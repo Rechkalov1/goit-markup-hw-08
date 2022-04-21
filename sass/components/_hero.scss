@@ -1,39 +1,3 @@
-.hero-image {
-  @media screen and(min-width:0px) and(max-width:767px) {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/background480.jpg);
-    background-color: $main-color;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  @media screen and(min-width:768px) {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/background768.jpg);
-    background-color: $main-color;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  @media screen and(min-width:1200px) {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/background.jpg);
-    background-color: $main-color;
-  }
-}
 .hero {
   max-width: 1600px;
   padding-top: 200px;
