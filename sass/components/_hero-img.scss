@@ -5,13 +5,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/bc_fone/header_m.jpg);
+      -webkit-image-set(url(../images/bc_fone/header_m.webp) 1x);
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      -webkit-image-set(url(../images/bc_fone/header_m.webp) 1x);
+      url(../images/bc_fone/header_m.jpg);
 
     @media (min-device-pixel-ratio: 2) and (max-width: 767px),
       (min-resolution: 192dpi) and (max-width: 767px),
@@ -21,14 +21,14 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/bc_fone/header_2xm.jpg);
-      background-image: linear-gradient(
-          to right,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
         -webkit-image-set(url(../images/bc_fone/header_2xm.webp) 2x);
     }
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/bc_fone/header_2xm.jpg);
     background-color: $main-color;
     background-repeat: no-repeat;
     background-position: center;
