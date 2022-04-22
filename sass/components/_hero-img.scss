@@ -1,27 +1,21 @@
 .hero-image {
-  @media screen and(max-width:767px) {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      -webkit-image-set(url(../images/bc_fone/header_m.webp) 1x);
+  @media screen and(min-width: 480px) {
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/bc_fone/header_m.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      -webkit-image-set(url(../images/bc_fone/header_m.webp) 1x);
 
-    @media (min-device-pixel-ratio: 2) and (max-width: 767px),
-      (min-resolution: 192dpi) and (max-width: 767px),
-      (min-resolution: 2dppx) and (max-width: 767px) {
-      background-image: linear-gradient(
-          to right,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
-        -webkit-image-set(url(../images/bc_fone/header_2xm.webp) 2x);
+    @media (min-device-pixel-ratio: 2) and (min-width: 480px),
+      (min-resolution: 192dpi) and (min-width: 480px),
+      (min-resolution: 2dppx) and (min-width: 480px) {
     }
     background-image: linear-gradient(
         to right,
@@ -29,12 +23,18 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/bc_fone/header_2xm.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      -webkit-image-set(url(../images/bc_fone/header_2xm.webp) 2x);
     background-color: $main-color;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  @media screen and(max-width: 1199px) {
+  @media screen and(min-width:768px) {
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
@@ -47,9 +47,9 @@
         rgba(47, 48, 58, 0.4)
       ),
       -webkit-image-set(url(../images/bc_fone/header_t.webp) 1x);
-    @media (min-device-pixel-ratio: 2) and (max-width: 1199px),
-      (min-resolution: 192dpi) and (max-width: 1199px),
-      (min-resolution: 2dppx) and (max-width: 1199px) {
+    @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+      (min-resolution: 192dpi) and (min-width: 768px),
+      (min-resolution: 2dppx) and (min-width: 768px) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
