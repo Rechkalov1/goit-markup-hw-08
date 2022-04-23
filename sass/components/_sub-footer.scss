@@ -50,4 +50,7 @@
   &:focus {
     border: 1px solid #2196f3;
   }
+  @media screen and(max-width:767px) {
+    margin-bottom: 20px;
+  }
 }

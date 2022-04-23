@@ -1023,10 +1023,21 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+.company__list {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
   .company__list {
     margin: -15px;
-    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .company__list {
+    margin: -15px;
     flex-wrap: wrap;
   }
 }
@@ -1034,15 +1045,6 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .company__list {
     margin: -15px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .company__list {
-    margin: -15px;
-    display: flex;
     flex-wrap: wrap;
   }
 }
@@ -1070,7 +1072,14 @@ body {
   border-color: #2196f3;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+  .company__item {
+    width: calc((100%-60px) / 2);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .company__item {
     width: 210px;
     height: 92px;
@@ -1304,10 +1313,24 @@ body {
   color: #ffffff;
 }
 
+@media screen and (max-width: 767px) {
+  .footer__title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
 .footer {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-join {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1363,6 +1386,7 @@ body {
 
 .footer__item {
   display: flex;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -1401,6 +1425,14 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    display: inline;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1470,6 +1502,12 @@ body {
 
 .sub__input:focus {
   border: 1px solid #2196f3;
+}
+
+@media screen and (max-width: 767px) {
+  .sub__input {
+    margin-bottom: 20px;
+  }
 }
 
 .main-button__container {

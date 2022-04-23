@@ -549,10 +549,24 @@ textarea {
   color: #ffffff;
 }
 
+@media screen and (max-width: 767px) {
+  .footer__title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
 .footer {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-join {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -608,6 +622,7 @@ textarea {
 
 .footer__item {
   display: flex;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -646,6 +661,14 @@ textarea {
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    display: inline;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -994,5 +1017,11 @@ body {
 
 .sub__input:focus {
   border: 1px solid #2196f3;
+}
+
+@media screen and (max-width: 767px) {
+  .sub__input {
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=two-page.css.map */
