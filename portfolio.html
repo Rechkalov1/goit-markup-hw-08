@@ -26,6 +26,24 @@
         <a class="header__website" href="./portfolio.html"
           >Web<span class="header__logo">Studio</span></a
         >
+        <button
+          class="menu-btn"
+          type="button"
+          aria-label="кнопка меню"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg class="menu-btn__icon" width="44" height="44">
+            <use
+              class="menu-btn__icon-open"
+              href="./images/icons.svg#icon-menu"
+            ></use>
+            <use
+              class="menu-btn__icon-close"
+              href="./images/icons.svg#icon-close"
+            ></use>
+          </svg>
+        </button>
         <nav class="site-nav">
           <ul class="site-nav__list">
             <li class="site-nav__item">
@@ -97,13 +115,61 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href="">
                 <div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/img.jpg"
-                    width="370"
-                    height="294"
-                    alt="технокряк"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_1.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_1@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_1.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_1@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_1t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_1t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_1t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_1t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_1m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_1m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_1m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_1m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_1.jpg"
+                      alt="технокряк"
+                    />
+                  </picture>
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -121,13 +187,61 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href=""
                 ><div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/basket.jpg"
-                    width="370"
-                    height="294"
-                    alt="Постер"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_2.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_2@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_2.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_2@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_2t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_2t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_2t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_2t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_2m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_2m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_2m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_2m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_2.jpg"
+                      alt="технокряк"
+                    />
+                  </picture>
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -146,13 +260,62 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href=""
                 ><div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/seafood.jpg"
-                    width="370"
-                    height="294"
-                    alt="Ресторан Seafood"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_3.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_3@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_3.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_3@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_3t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_3t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_3t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_3t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_3m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_3m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_3m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_3m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_3.jpg"
+                      alt="Ресторан Seafood"
+                    />
+                  </picture>
+
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -169,13 +332,62 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href="">
                 <div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/headphones.jpg"
-                    alt="Проект Prime"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_4.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_4@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_4.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_4@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_4t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_4t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_4t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_4t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_4m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_4m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_4m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_4m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_4.jpg"
+                      alt="Проект Prime"
+                    />
+                  </picture>
+
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -192,13 +404,62 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href="">
                 <div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/img4.jpg"
-                    width="370"
-                    height="294"
-                    alt="Проект Boxes"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_5.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_5@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_5.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_5@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_5t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_5t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_5t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_5t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_5m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_5m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_5m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_5m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_5.jpg"
+                      alt="Проект Boxes"
+                    />
+                  </picture>
+
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -215,13 +476,62 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href="">
                 <div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/pk.jpg"
-                    width="370"
-                    height="294"
-                    alt="Inspiration has no Borders"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_6.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_6@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_6.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_6@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_6t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_6t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_6t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_6t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_6m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_6m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_6m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_6m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port.jpg"
+                      alt="Inspiration has no Borders"
+                    />
+                  </picture>
+
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -240,13 +550,62 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href=""
                 ><div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/img6.jpg"
-                    width="370"
-                    height="294"
-                    alt="Издание Limited Edition"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_7.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_7@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_7.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_7@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_7t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_7t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_7t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_7t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_7m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_7m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_7m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_7m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_7.jpg"
+                      alt="Издание Limited Edition"
+                    />
+                  </picture>
+
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -265,13 +624,62 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href="">
                 <div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/img7.jpg"
-                    width="370"
-                    height="294"
-                    alt="Проект LAB"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_8.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_8@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_8.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_8@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_8t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_8t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_8t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_8t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_8m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_8m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_8m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_8m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_8.jpg"
+                      alt="Проект LAB"
+                    />
+                  </picture>
+
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -288,13 +696,62 @@
             <li class="portfolio-list__item">
               <a class="portfolio-list__card" href="">
                 <div class="owerlay-thumb">
-                  <img
-                    class="portfolio-list__img"
-                    src="./imagesporfolio/pk2.jpg"
-                    width="370"
-                    height="294"
-                    alt="Growing Business"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_9.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_9@2x.webp 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_9.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_9@2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_9t.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_9t@2x.webp 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_9t.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_9t@2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_9m.webp    1x,
+                        ./imagesporfolio/portfolio-mobile/port_9m@2x.webp 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./imagesporfolio/portfolio-mobile/port_9m.jpg    1x,
+                        ./imagesporfolio/portfolio-mobile/port_9m@2x.jpg 2x
+                      "
+                      media="(max-width:767px)"
+                      type="image/webp"
+                    />
+                    <img
+                      class="portfolio-list__img"
+                      src="./imagesporfolio/portfolio-mobile/port_9.jpg"
+                      alt="Growing Business"
+                    />
+                  </picture>
+
                   <p class="owerlay-txt">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -311,7 +768,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container">
         <div class="footer-nav">
           <a class="footer-nav__website" href="./index.html"
@@ -382,7 +839,55 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <div class="mobile-overlay" data-menu>
+      <div class="mobile-menu">
+        <nav class="mobile-nav">
+          <ul class="mobile-nav_list">
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link" href="./index.html">Студия</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link current" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link" href="Контакты">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-contacts">
+          <a class="mobile-contacts__link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+          <a
+            class="mobile-contacts__link mobile-contacts__email"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </div>
+        <div>
+          <a
+            href=""
+            class="mobile-menu__social-link mobile-menu__social-link-before"
+            >Instagram</a
+          >
+          <a
+            href=""
+            class="mobile-menu__social-link mobile-menu__social-link-before"
+            >Twitter</a
+          >
+          <a
+            href=""
+            class="mobile-menu__social-link mobile-menu__social-link-before"
+            >Facebook</a
+          >
+          <a href="" class="mobile-menu__social-link">Linkedin</a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/open-close.js"></script>
   </body>
   <!--  -->
 </html>
