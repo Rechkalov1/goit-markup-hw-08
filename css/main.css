@@ -1088,9 +1088,9 @@ body {
   border-color: #2196f3;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   .company__item {
-    width: calc((100%-15px) / 2);
+    width: 130px;
     margin: 15px;
   }
 }
