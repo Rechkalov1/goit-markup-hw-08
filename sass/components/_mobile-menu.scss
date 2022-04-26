@@ -61,11 +61,23 @@
   flex-direction: column;
   margin-bottom: 64px;
 }
+.mobile-menu__social-thumb {
+  @media screen and(max-width:767px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.mobile-menu__social-item {
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
 .mobile-contacts__link {
   font-family: $font-style;
   font-weight: 500;
-  font-size: 34px;
-  line-height: calc(34 / 40);
+  font-size: 24px;
+  line-height: calc(24 / 28);
   letter-spacing: 0.02em;
   color: $color-blue;
   margin-bottom: 32px;
@@ -85,10 +97,6 @@
   line-height: calc(18 / 22);
   letter-spacing: 0.02em;
   color: $color-blue;
-  margin-right: 20px;
-  &:last-child {
-    margin-right: 0px;
-  }
 }
 
 .mobile-menu__social-link-before {

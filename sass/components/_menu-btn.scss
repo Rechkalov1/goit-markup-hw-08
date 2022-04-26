@@ -1,5 +1,4 @@
 .menu-btn {
-  position: relative;
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -7,7 +6,7 @@
   background-color: transparent;
   border: transparent;
   outline: transparent;
-  z-index: 6;
+
   padding: 0;
   &.is-active .menu-btn__icon-open {
     opacity: 0;
@@ -24,8 +23,6 @@
   height: 44px;
 }
 .menu-btn__icon-open {
-  opacity: 1;
-
   &:hover {
     fill: $color-blue;
   }
@@ -33,9 +30,18 @@
     fill: $color-blue;
   }
 }
-.menu-btn__icon-close {
-  opacity: 0;
+.menu-btn-close {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  background-color: transparent;
+  border: transparent;
+  outline: transparent;
 
+  padding: 0;
+}
+.menu-btn__icon-close {
   &:hover {
     fill: $color-blue;
   }

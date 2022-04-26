@@ -24,7 +24,10 @@
 }
 
 .hero__txt {
-  @media screen and(min-width:0px) and(max-width:767px) {
+  @media screen and(max-width:479px) {
+    width: 100%;
+  }
+  @media screen and(min-width:480px) and(max-width:767px) {
     width: 360px;
     font-size: 26px;
     line-height: calc(42 / 26);

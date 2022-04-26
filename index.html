@@ -36,10 +36,6 @@
               class="menu-btn__icon-open"
               href="./images/icons.svg#icon-menu"
             ></use>
-            <use
-              class="menu-btn__icon-close"
-              href="./images/icons.svg#icon-close"
-            ></use>
           </svg>
         </button>
         <nav class="site-nav">
@@ -143,13 +139,26 @@
           <ul class="what-doing__list">
             <li class="what-doing__item">
               <div class="what-doing__box">
-                <img
-                  class="images"
-                  src="./images/box1.jpg "
-                  width="370"
-                  height="294"
-                  alt="Пример1"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ./images/what_doing/what_doing.webp    1x,
+                      ./images/what_doing/what_doing@2x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/what_doing/what_doing.jpg    1x,
+                      ./images/what_doing/what_doing@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <img src="./images/what_doing/what_doing.jpg" alt="Пример1" />
+                </picture>
+
                 <div class="what-doing__wrapper">
                   <h2 class="what-doing__meta">Десктопные приложения</h2>
                 </div>
@@ -157,12 +166,28 @@
             </li>
             <li class="what-doing__item">
               <div class="what-doing__box">
-                <img
-                  src="./images/box2.jpg"
-                  width="370"
-                  height="294"
-                  alt="пример2"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ./images/what_doing/what_doing2.webp   1x,
+                      ./images/what_doing/what_doing2@x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/what_doing/what_doing2.jpg   1x,
+                      ./images/what_doing/what_doing2@x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/what_doing/what_doing2.jpg"
+                    alt="пример2"
+                  />
+                </picture>
                 <div class="what-doing__wrapper">
                   <h2 class="what-doing__meta">Мобильные приложения</h2>
                 </div>
@@ -170,12 +195,29 @@
             </li>
             <li class="what-doing__item">
               <div class="what-doing__box">
-                <img
-                  src="./images/box3.jpg"
-                  width="370"
-                  height="294"
-                  alt="пример3"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ./images/what_doing/what_doing3.webp   1x,
+                      ./images/what_doing/what_doing3@x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/what_doing/what_doing3.jpg   1x,
+                      ./images/what_doing/what_doing3@x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/what_doing/what_doing3.jpg"
+                    alt="пример3"
+                  />
+                </picture>
+
                 <div class="what-doing__wrapper">
                   <h2 class="what-doing__meta">Дизайнерские решения</h2>
                 </div>
@@ -706,6 +748,14 @@
     </div>
     <div class="mobile-overlay" data-menu>
       <div class="mobile-menu">
+        <button class="menu-btn-close" type="button" data-menu-close>
+          <svg class="menu-btn__icon" width="44" height="44">
+            <use
+              class="menu-btn__icon-close"
+              href="./images/icons.svg#icon-close"
+            ></use>
+          </svg>
+        </button>
         <nav class="mobile-nav">
           <ul class="mobile-nav_list">
             <li class="mobile-nav__item">
@@ -729,24 +779,32 @@
             >info@devstudio.com</a
           >
         </div>
-        <div>
-          <a
-            href=""
-            class="mobile-menu__social-link mobile-menu__social-link-before"
-            >Instagram</a
-          >
-          <a
-            href=""
-            class="mobile-menu__social-link mobile-menu__social-link-before"
-            >Twitter</a
-          >
-          <a
-            href=""
-            class="mobile-menu__social-link mobile-menu__social-link-before"
-            >Facebook</a
-          >
-          <a href="" class="mobile-menu__social-link">Linkedin</a>
-        </div>
+        <ul class="mobile-menu__social-thumb">
+          <li class="mobile-menu__social-item">
+            <a
+              href=""
+              class="mobile-menu__social-link mobile-menu__social-link-before"
+              >Instagram</a
+            >
+          </li>
+          <li class="mobile-menu__social-item">
+            <a
+              href=""
+              class="mobile-menu__social-link mobile-menu__social-link-before"
+              >Twitter</a
+            >
+          </li>
+          <li class="mobile-menu__social-item">
+            <a
+              href=""
+              class="mobile-menu__social-link mobile-menu__social-link-before"
+              >Facebook</a
+            >
+          </li>
+          <li class="mobile-menu__social-item">
+            <a href="" class="mobile-menu__social-link">Linkedin</a>
+          </li>
+        </ul>
       </div>
     </div>
 

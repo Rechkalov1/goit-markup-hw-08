@@ -21,15 +21,19 @@
 .checkbox-icon {
   position: absolute;
   left: 52px;
-  bottom: 129px;
+  bottom: 122px;
   display: inline-block;
   width: 16px;
   height: 15px;
   background-color: #ffffff;
   background-image: url(../images/Vector.svg);
+  @media screen and (min-width: 480px) {
+    left: 52px;
+    bottom: 122px;
+  }
   @media screen and (min-width: 1200px) {
     left: 52px;
-    bottom: 135px;
+    bottom: 126px;
   }
 }
 .checkbox__description {
