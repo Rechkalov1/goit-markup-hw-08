@@ -9,7 +9,7 @@
 
   z-index: 5;
   transform: translateX(100%);
-  transition: transform $transition-timing-func;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: hidden;
   pointer-events: none;
   &.is-open {
