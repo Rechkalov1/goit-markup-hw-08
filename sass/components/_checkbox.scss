@@ -10,30 +10,28 @@
   }
 }
 .checkbox-label {
-  white-space: nowrap;
   display: block;
 
-  margin-left: 31px;
   margin-bottom: 30px;
   cursor: pointer;
 }
 
 .checkbox-icon {
-  position: absolute;
-  left: 52px;
-  bottom: 122px;
+  position: relative;
+
+  bottom: -3px;
   display: inline-block;
   width: 16px;
   height: 15px;
   background-color: #ffffff;
   background-image: url(../images/Vector.svg);
   @media screen and (min-width: 480px) {
-    left: 52px;
-    bottom: 122px;
+    left: 0px;
+    bottom: -3px;
   }
   @media screen and (min-width: 1200px) {
-    left: 52px;
-    bottom: 126px;
+    left: 0px;
+    bottom: 0px;
   }
 }
 .checkbox__description {

@@ -1188,13 +1188,21 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.55;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   padding: 63px 24px;
   color: #ffffff;
+  overflow: auto;
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 400px) {
+  .owerlay-txt {
+    padding: 2px;
+    text-align: center;
+  }
 }
 
 .owerlay-thumb {
@@ -1919,17 +1927,14 @@ body {
 }
 
 .checkbox-label {
-  white-space: nowrap;
   display: block;
-  margin-left: 31px;
   margin-bottom: 30px;
   cursor: pointer;
 }
 
 .checkbox-icon {
-  position: absolute;
-  left: 52px;
-  bottom: 122px;
+  position: relative;
+  bottom: -3px;
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -1939,15 +1944,15 @@ body {
 
 @media screen and (min-width: 480px) {
   .checkbox-icon {
-    left: 52px;
-    bottom: 122px;
+    left: 0px;
+    bottom: -3px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .checkbox-icon {
-    left: 52px;
-    bottom: 126px;
+    left: 0px;
+    bottom: 0px;
   }
 }
 
@@ -2017,6 +2022,9 @@ textarea {
 }
 
 .menu-btn-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -2039,8 +2047,8 @@ textarea {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vh;
-  height: 796px;
+  width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   z-index: 5;
@@ -2071,9 +2079,11 @@ textarea {
 
 .mobile-menu {
   width: 100%;
-  height: 796px;
+  height: 100%;
   padding: 40px;
-  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 480px), (max-width: 767px) {
@@ -2081,14 +2091,6 @@ textarea {
     background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   }
-}
-
-.mobile-nav__item {
-  margin-bottom: 32px;
-}
-
-.mobile-nav__item:last-child {
-  margin-bottom: 302px;
 }
 
 .mobile-nav__link {
@@ -2107,13 +2109,27 @@ textarea {
 .mobile-contacts {
   display: flex;
   flex-direction: column;
-  margin-bottom: 64px;
 }
 
 @media screen and (max-width: 767px) {
   .mobile-menu__social-thumb {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-contacts__thumb {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-contacts__item {
+    margin-bottom: 32px;
+  }
+  .mobile-contacts__item:last-child {
+    margin-bottom: 0px;
   }
 }
 
@@ -2167,6 +2183,15 @@ textarea {
   width: 22px;
   border: 1px solid #08070733;
   transform: rotate(90deg);
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-nav__item {
+    margin-bottom: 32px;
+  }
+  .mobile-nav__item:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {

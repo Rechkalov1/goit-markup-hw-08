@@ -10,13 +10,18 @@
   font-family: $font-style;
   font-weight: $font-weight;
   font-size: 18px;
-  line-height: 1.55;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   padding: 63px 24px;
   color: $color-white;
+  overflow: auto;
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: transform 250ms $transition-timing-func;
+  @media screen and (max-width: 400px) {
+    padding: 2px;
+    text-align: center;
+  }
 }
 .owerlay-thumb {
   position: relative;
