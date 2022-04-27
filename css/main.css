@@ -1200,6 +1200,8 @@ body {
 
 @media screen and (max-width: 400px) {
   .owerlay-txt {
+    font-size: 16px;
+    line-height: 1.4;
     padding: 2px;
     text-align: center;
   }
@@ -1282,7 +1284,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .footer-container {
-    width: 320px;
+    width: 370px;
     text-align: center;
   }
 }
@@ -1776,7 +1778,7 @@ body {
   padding-left: 24px;
 }
 
-@media screen and (min-width: 480) and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .description {
     flex-grow: 1;
   }
