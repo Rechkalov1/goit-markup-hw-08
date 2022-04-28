@@ -1282,10 +1282,23 @@ body {
   margin-left: auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
   .footer-container {
-    width: 370px;
+    width: 100%;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer-container {
+    text-align: center;
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    width: 768px;
   }
 }
 
@@ -1610,6 +1623,12 @@ body {
 
 .sub__input:focus {
   border: 1px solid #2196f3;
+}
+
+@media screen and (min-width: 480px) {
+  .sub__input {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) {
